@@ -37,13 +37,6 @@ nav:
 autopages:
   enabled: true
   tags:
-    layouts:
-      - autopage_collections_tags.html
-     # - autopage_tags.html
-    enabled: true
-  categories:
-    layouts:
-      - autopage_cat.html
     enabled: true
   collections:
     enabled: true
