@@ -2,11 +2,9 @@ version: '3.4'
 
 services:
   jekyll:
-    build: .
-    environment:
-      - JEKYLL_ENV=docker
-    command: jekyll serve --watch --force_polling --verbose
+    image: jekyll/jekyll:latest
+    command: jekyll serve --watch --force_polling --verbose --host 0.0.0.0
     ports:
-      - 9099:4000
+      - 4000:4000
     volumes:
       - .:/srv/jekyll
