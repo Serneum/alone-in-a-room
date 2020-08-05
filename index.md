@@ -1,6 +1,11 @@
 ---
 layout: default
 title: Home
+pagination:
+  enabled: true
+  collection: all
+  sort_field: 'date'
+  sort_reverse: false
 ---
 
 <div class="posts">
