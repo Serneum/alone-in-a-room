@@ -1,0 +1,23 @@
+# Setup
+title:               Alone in a Room
+tagline:             'A Blog for Solo RPGs'
+description:         'A blog containing solo journaling RPG sessions'
+url:                 https://blog.chrisrees.dev
+baseurl:             ''
+paginate:            5
+permalink:           pretty
+
+host: blog.chrisrees.dev
+
+# About/contact
+author:
+  name:              Chris Rees
+  url:               https://blog.chrisrees.dev
+  email:             i.am@chrisrees.dev
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.0.0
