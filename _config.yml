@@ -57,23 +57,5 @@ pagination:
     before: 2
     after: 2
 
-# Front Matter
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      pagination:
-        enabled: true
-        permalink: /:num/
-        sort_reverse: false
-  -
-    scope:
-      path: "_einar/all"
-      type: "posts"
-    values:
-      tags: einar
-
 # Custom vars
 version:             1.0.0
