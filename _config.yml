@@ -29,6 +29,9 @@ collections:
   tyov:
     output: true
     permalink: /tyov/:path
+  wretched:
+    output: true
+    permalink: /wretched/:path
 
 nav:
   Home:
@@ -39,6 +42,9 @@ nav:
   Thousand Year Old Vampire:
     - '/tyov/'
     - { Einar: '/tyov/einar' }
+  # Wretched:
+  #   - '/wretched/'
+  #   - { Ronnic: '/wretched/ronnic' }
 
 autopages:
   enabled: true
