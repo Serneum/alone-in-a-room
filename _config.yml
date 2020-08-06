@@ -2,16 +2,16 @@
 title:               Alone in a Room
 tagline:             'A Blog for Solo RPGs'
 description:         'A blog containing solo journaling RPG sessions'
-url:                 https://blog.chrisrees.dev
+url:                 https://alone-in-a-room.com
 baseurl:             ''
 permalink:           pretty
 
-host: blog.chrisrees.dev
+host: alone-in-a-room.com
 
 # About/contact
 author:
   name:              Chris Rees
-  url:               https://blog.chrisrees.dev
+  url:               https://alone-in-a-room.com
   email:             i.am@chrisrees.dev
 
 # Build settings
