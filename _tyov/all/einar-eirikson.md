@@ -9,7 +9,7 @@ tags: einar
 
 #### Mortal
 - Eirik, my aging father.
-- Geir, my friend and neighbor.
+- ~~Geir, my friend and neighbor.~~
 - Hege, my wife and mother of our two chilren.
 
 #### Immortal
@@ -20,6 +20,7 @@ tags: einar
 - Close combat
 - Farming
 - Mead brewing
+- Bloodthirsty
 
 ### Resources
 
@@ -33,16 +34,17 @@ tags: einar
   - I am Einar Eirikson, son of Eirik Asgerson, born in Hornstrandir in the 9th century; I am a poor farmer, relying on raids to boost my influence and provide for my family.
 
 2.
-  - Geir and I go on our first raid. We watch each other's backs and make sure we both make it home. I carve a notch in my axe's handle for each foe slain.
+  - After Geir and I go on our first raid, I carve a notch in my axe's handle for each foe slain.
+  - I kill Geir and hide his body; I will not forget him.
 
 3.
-  - Eirik, my father, teaches me the family recipe for mead. I get my first taste and it is foul.
+  - Eirik, my father, teaches me the family recipe for mead; I get my first taste and it is foul.
 
 4.
-  - Hege and I are out tending to our fields when she goes into labor. My son is born shortly after.
+  - Hege and I are out tending to our fields when she goes into labor and gifts me with a son.
 
 5.
-  - Geir has been killed by Wulfnoð. I chase him into the forests around the battlefield where he surprises me and stabs me through the chest, though I do not die.
+  - I chase Wolfnoð into the forests around the battlefield after he wounds Geir; Wolfnoð surprises me and stabs me through the chest, though I do not die.
 
 ### Mark
 
