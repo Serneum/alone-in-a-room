@@ -42,9 +42,9 @@ nav:
   Thousand Year Old Vampire:
     - '/tyov/'
     - { Einar: '/tyov/einar' }
-  # Wretched:
-  #   - '/wretched/'
-  #   - { Ronnic: '/wretched/ronnic' }
+  Wretched:
+    - '/wretched/'
+    - { Ronnic: '/wretched/ronnic' }
 
 autopages:
   enabled: true
