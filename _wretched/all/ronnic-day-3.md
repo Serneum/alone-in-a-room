@@ -15,4 +15,6 @@ As I sit in the bridge and look at all of the monitoring systems, they're all em
 
 Despite all of my efforts, I wasn't able to send anything before the comms system cut out again. I thought I had finally adjusted enough of the settings to make out what was being said, but all I heard was "Wretched" and "Lost." Maybe they were looking for me.
 
-Periodically, I hear the creature move around the outside of the ship. I can hear its claws pierce the hull of the ship as it moves. Luckilu, the damage isn't deep enough to cause me any problems...yet.
+Periodically, I hear the creature move around the outside of the ship. I can hear its claws pierce the hull of the ship as it moves. Luckily, the damage isn't deep enough to cause me any problems...yet.
+
+This is Ronnic, signing off.
