@@ -5,7 +5,7 @@ pagination:
   enabled: true
   collection: all
   sort_field: 'date'
-  sort_reverse: false
+  sort_reverse: true
 ---
 
 <div class="posts">

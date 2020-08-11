@@ -1,8 +1,8 @@
 ---
 layout: pagination
-title: Thousand Year Old Vampire
+title: Wretched
 pagination:
   enabled: true
-  collection: tyov
+  collection: wretched
   permalink: /:num/
 ---

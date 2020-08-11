@@ -36,9 +36,9 @@ collections:
 nav:
   Home:
     - '/'
-  # Artefact:
-  #   - '/artefact/'
-  #   - { Yggnir: '/artefact/yggnir' }
+  Artefact:
+    - '/artefact/'
+    - { Yggnir: '/artefact/yggnir' }
   Thousand Year Old Vampire:
     - '/tyov/'
     - { Einar: '/tyov/einar' }
@@ -74,4 +74,4 @@ sass:
   sass_dir: _scss
 
 # Custom vars
-version:             1.0.0
+version: 1.0.0
