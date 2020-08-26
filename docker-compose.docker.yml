@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  jekyll:
-    environment:
-      - JEKYLL_ENV=docker
-    ports:
-      - 9099:4000

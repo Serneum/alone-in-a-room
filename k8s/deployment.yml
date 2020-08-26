@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: alone-in-a-room-deployment
+  labels:
+    app: alone-in-a-room
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: alone-in-a-room
+      type: backend
+  template:
+    metadata:
+      name: alone-in-a-room-pod
+      labels:
+        app: alone-in-a-room
+        type: backend
+    spec:
+      volumes:
+      - name: jekyll-files
+        hostPath:
+          path: .
+          type: DirectoryOrCreate
+      containers:
+      - name: web
+        image: jekyll/jekyll:latest
+        command: ['jekyll', 'serve', '--watch', '--force_polling', '--verbose', '--host', '0.0.0.0']
+        ports:
+        - containerPort: 4000
+        volumeMounts:
+        - mountPath: /srv/jekyll
+          name: jekyll-files
+        envFrom:
+        - configMapRef:
+           name: jekyll-env
