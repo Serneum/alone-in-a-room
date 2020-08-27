@@ -28,4 +28,4 @@ spec:
         - configMapRef:
            name: jekyll-env
       imagePullSecrets:
-      - name: regcred
+      - name: gitlab-registry-credentials
