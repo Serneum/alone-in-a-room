@@ -8,14 +8,3 @@ services:
       - .:/srv/jekyll
     ports:
       - 4000:4000
-    networks:
-      - caddy
-    labels:
-      caddy: alone-in-a-room.com
-      caddy.reverse_proxy: "{{ upstreams 4000 }}"
-      caddy.import: "cloudflare-tls"
-
-networks:
-  caddy:
-    external:
-      name: caddy_default
