@@ -4,7 +4,18 @@ services:
   jekyll:
     image: jekyll/jekyll:latest
     command: jekyll serve --watch --force_polling --verbose --host 0.0.0.0
-    ports:
-      - 4000:4000
     volumes:
       - .:/srv/jekyll
+    ports:
+      - 4000:4000
+    networks:
+      - caddy
+    labels:
+      caddy: alone-in-a-room.com
+      caddy.reverse_proxy: "{{ upstreams 4000 }}"
+      caddy.import: "cloudflare-tls"
+
+networks:
+  caddy:
+    external:
+      name: caddy_default
