@@ -16,4 +16,4 @@ services:
 networks:
   caddy:
     external:
-      name: caddy_default
+      name: app-config_default
